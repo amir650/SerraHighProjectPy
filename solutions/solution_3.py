@@ -25,8 +25,10 @@ class Paddle:
     VEL = 4
 
     def __init__(self, x, y, width, height):
-        self.x = self.original_x = x
-        self.y = self.original_y = y
+        self.x = x
+        self.y = y
+        self.original_x = x
+        self.original_y = y
         self.width = width
         self.height = height
 
